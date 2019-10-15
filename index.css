@@ -1,0 +1,180 @@
+
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+body {
+  font-size: 28px;
+  background-color: white;
+}
+
+.baniere {
+    text-align: center;
+}
+
+.nav ul {
+  font-size: smaller;
+  width: 100%; 
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  position: fixed;
+  top: 0;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #111; 
+}
+
+.presentation {
+  /*background-color: black; */
+  padding: auto;
+  display: inline-block;
+  width: 100%;
+  max-height: 10%;
+  border: 1px solid #4CAF50;
+}
+
+.profil{
+  max-width: 20%;
+  float: left;
+}
+.profil img {
+
+  border-radius: 35%;
+
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #111;
+  /*background-color: lightblue; */
+  
+}
+.description{
+  max-width: 79%;
+  float: left;
+  border: 1px solid #333;
+}
+
+.description h1{
+  font-weight: bold;
+  padding-left: 1%; 
+}
+
+.description p {
+  font-size: smaller;
+  height: auto;
+
+  margin-left: 1%; 
+  margin-right: 2%;
+  text-align: justify; 
+  border: 1px solid #111;
+
+}
+
+.description img{
+
+  border-radius: 35%; 
+  
+
+  margin-left: 25%;  
+  max-width: 10%;
+  height: auto;
+  
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #111;
+}
+
+.description img:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.video .bgvid{  /* Il faut le mettre bien plus tard */ 
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+  
+  border: 1px solid red;
+  height: auto;
+  width: 100%; 
+}
+
+.competence h2{
+ 
+}
+
+.bande {
+
+  padding-top: 1%; 
+  padding-bottom: 1%; 
+  text-align:center; 
+  font-weight: bold; 
+  text-align: center;
+  
+
+ 
+  background: rgba(252,252,252, .5);  
+}
+
+#myVideo {
+   position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+footer {
+  padding-top: 1%; 
+  padding-bottom: 1%; 
+
+  width: 100%;
+  height: 100%;  
+  font-size: small;
+  background-color: black; 
+}
+footer p {
+  color: white;
+  text-align: center;
+}
