@@ -77,6 +77,7 @@ li a:hover {
 
   max-width: 100%;
   height: auto;
+
   padding: 20px;
   box-sizing: border-box;
   border: 1px solid #111;
@@ -86,7 +87,7 @@ li a:hover {
 .description{
   max-width: 79%;
   float: left;
-  border: 1px solid #333;
+  border: 1px solid #990;
 }
 
 .description h1{
@@ -104,15 +105,19 @@ li a:hover {
   border: 1px solid #111;
 
 }
+.description div{
+  text-align: center;
+  margin-bottom: 2%; 
 
+}
 .description img{
 
   border-radius: 35%; 
   
-
-  margin-left: 25%;  
   max-width: 10%;
   height: auto;
+
+  margin-right: 2%;  
   
   padding: 10px;
   box-sizing: border-box;
@@ -126,22 +131,6 @@ li a:hover {
   perspective: 1000px;
 }
 
-.video .bgvid{  /* Il faut le mettre bien plus tard */ 
-  position: fixed; right: 0; bottom: 0;
-  min-width: 100%; min-height: 100%;
-  width: auto; height: auto; z-index: -100;
-  background: url(polina.jpg) no-repeat;
-  background-size: cover;
-  
-  border: 1px solid red;
-  height: auto;
-  width: 100%; 
-}
-
-.competence h2{
- 
-}
-
 .bande {
 
   padding-top: 1%; 
@@ -150,19 +139,17 @@ li a:hover {
   font-weight: bold; 
   text-align: center;
   
-
- 
   background: rgba(252,252,252, .5);  
 }
 
 #myVideo {
    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
 }
 
 footer {
@@ -176,5 +163,17 @@ footer {
 }
 footer p {
   color: white;
+  text-align: center;
+}
+
+
+.competence table{
+  margin: auto;
+  background-color: grey; 
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.competence td{
   text-align: center;
 }
