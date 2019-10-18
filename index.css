@@ -336,9 +336,12 @@ li a:hover {
   font-size: medium;
   text-align: justify;
   padding: 2%; 
-  text-indent: 40px;
+  text-indent: 30px;
 }
 
+#audio{
+  margin-left: 30%;
+}
 footer {
   padding-top: 1%; 
   padding-bottom: 1%; 
