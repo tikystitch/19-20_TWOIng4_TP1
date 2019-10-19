@@ -308,7 +308,7 @@ li a:hover {
 } 
 #dino_contain:hover > #boule {
 
-  -webkit-animation:linear;
+  -webkit-animation:linear infinite;
   -webkit-animation-name: shoot;
   -webkit-animation-duration: 4s;
 }

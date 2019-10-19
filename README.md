@@ -1,6 +1,6 @@
 # TP1
 # VUONG Jimmy TD2 Ocres
-
+# N'hésitez pas à passer votre souris sur tous les container afin de découvrir les différents animations mise en place (le dinosaure, les différents logos de la présentation, la description des compétences)  
 
 A lire impérativement avant de commencer quoi que ce soit, ce sont les règles que vous devrez appliquer tout au long du semestre:
 
